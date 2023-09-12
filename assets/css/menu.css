@@ -1,0 +1,9 @@
+.menu__link{
+    color: #333333;
+    padding: 5rem 1rem;
+}
+.menu__link:hover{
+    border-bottom: 2rem solid #0073e6;
+    font-size: 20px;
+    color: #0073e6;
+}
