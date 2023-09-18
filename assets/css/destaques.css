@@ -19,7 +19,7 @@
    
 }
 .destaques__principal{
-    background: url('../img/Honda300.jpg') center / cover no-repeat;
+    background: url('../img/game.jpg') center / cover no-repeat;
     grid-column: 1/4;
     grid-row: 1/3;
       }
