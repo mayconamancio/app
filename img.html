@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="img.css" rel="stylesheet">
+    <link href="./assets/css/normalize.css" rel="stylesheet">
+    <link href="./assets/css/reset.css" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <link href="./assets/css/destaques.css" rel="stylesheet">
+    <link href="./assets/css/populares.css" rel="stylesheet">
+    <link href="./assets/css/menu.css" rel="stylesheet">
+    <link href="./assets/css/responsivo.css" rel="stylesheet">
+    <title>Carrosel de imagens</title>
+        <nav class="menu">
+        <ul class="menu__lista">
+            <li class="menu__item">
+                <a class="menu__link ativo" href="index.html">
+                    <i class="fas fa-home"></i>
+                    Início
+                </a>
+                <a class="menu__link" href="#">
+                        <i class="fas fa-mobile-alt"></i>
+                        Aplicativos</a>
+                        <a class="menu__link" href="#">
+                        <i class="fas fa-gamepad"></i>
+                        Contato
+                </a>
+            </li>
+        </ul>
+</nav>
+</head>
+<body>
+    <div class="carousel">
+        <input type="radio" name="carousel" id="slide1" checked>
+        <input type="radio" name="carousel" id="slide2">
+        <input type="radio" name="carousel" id="slide3">
+        <div class="slides">
+          <div class="slide">
+            <img src="./assets/img/slide1.jpg" alt="Slide 1">
+          </div>
+          <div class="slide">
+            <img src="./assets/img/slide2.jpg" alt="Slide 2">
+          </div>
+          <div class="slide">
+            <img src="./assets/img/slide3.jpg" alt="Slide 3">
+          </div>
+        </div>
+        <div class="navigation">
+          <label for="slide1"></label>
+          <label for="slide2"></label>
+          <label for="slide3"></label>
+        </div>
+      </div>
+</body>
+</html>
