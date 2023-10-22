@@ -39,26 +39,33 @@
         </nav>
 </head>
 <body>
-    <div class="carousel">
-      <input type="radio" name="carousel" id="slide1" checked>
-      <input type="radio" name="carousel" id="slide2">
-      <input type="radio" name="carousel" id="slide3">
-        <div class="slides">
-          <div class="slide">
-            <img src="./assets/img/slide1.jpg" alt="Slide 1">
-          </div>
-          <div class="slide">
-            <img src="./assets/img/slide2.jpg" alt="Slide 2">
-          </div>
-          <div class="slide">
-            <img src="./assets/img/slide3.jpg" alt="Slide 3">
-          </div>
-        </div>
-        <div class="navigation">
-          <label for="slide1"></label>
-          <label for="slide2"></label>
-          <label for="slide3"></label>
-        </div>
-      </div>
+  <ul class="slider">
+    <li>
+          <img src="./assets/img/slide1.jpg" />
+    </li>
+    <li>
+          <img src="./assets/img/slide2.jpg" />
+    </li>
+    <li>
+          <img src="./assets/img/slide3.jpg" />
+    </li>
+    <ul class="slider">
+      <li>
+            <input type="radio" id="slide1" name="slide" checked>
+            <label for="slide1"></label>
+            <img src="./assets/img/slide1.jpg" />
+      </li>
+      <li>
+            <input type="radio" id="slide2" name="slide">
+            <label for="slide2"></label>
+            <img src="./assets/img/slide2.jpg" />
+      </li>
+      <li>
+            <input type="radio" id="slide3" name="slide">
+            <label for="slide3"></label>
+            <img src="./assets/img/slide3.jpg" />
+      </li>
+  </ul>
+</ul>
 </body>
 </html>
